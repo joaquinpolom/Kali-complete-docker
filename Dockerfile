@@ -232,30 +232,79 @@ RUN set -x \
     && apt-get install -yqq ddrescue \
     && apt-get install -yqq dumpzilla \
     && apt-get install -yqq extundelete \
-    && apt-get install -yqq foremost galleta guymager \
+    && apt-get install -yqq foremost \
+    && apt-get install -yqq galleta \
+    && apt-get install -yqq guymager \
     && apt-get install -yqq iphone-backup-analyzer \
-    && apt-get install -yqq p0f pdf-parser pdfid pdgmail peepdf \
-    && apt-get install -yqq volatility xplico dhcpig funkload \
-    && apt-get install -yqq iaxflood inviteflood ipv6-toolkit mdk3 \
-    && apt-get install -yqq reaver rtpflood slowhttptest \
-    && apt-get install -yqq t50 termineter thc-ipv6 \
-    && apt-get install -yqq thc-ssl-dos acccheck burpsuite \
-    && apt-get install -yqq cewl chntpw cisco-auditing-tool \
-    && apt-get install -yqq cmospwd creddump crunch findmyhash \
-    && apt-get install -yqq gpp-decrypt hash-identifier \
-    && apt-get install -yqq hexorbase john johnny keimpx maltego-teeth \
-    && apt-get install -yqq maskprocessor multiforcer ncrack \
-    && apt-get install -yqq oclgausscrack pack patator \
-    && apt-get install -yqq polenum rainbowcrack rcracki-mt rsmangler \
-    && apt-get install -yqq statsprocessor thc-pptp-bruter \
-    && apt-get install -yqq truecrack webscarab wordlists \
-    && apt-get install -yqq zaproxy apktool dex2jar \
-    && apt-get install -yqq python-distorm3 edb-debugger \
-    && apt-get install -yqq jad javasnoop jd ollydbg \
-    && apt-get install -yqq smali valgrind yara android-sdk \
-    && apt-get install -yqq apktool arduino \
+    && apt-get install -yqq p0f \
+    && apt-get install -yqq pdf-parser \
+    && apt-get install -yqq pdfid \
+    && apt-get install -yqq pdgmail \
+    && apt-get install -yqq peepdf \
+    && apt-get install -yqq volatility \
+    && apt-get install -yqq xplico \
+    && apt-get install -yqq dhcpig \
+    && apt-get install -yqq funkload \
+    && apt-get install -yqq iaxflood \
+    && apt-get install -yqq inviteflood \
+    && apt-get install -yqq ipv6-toolkit \
+    && apt-get install -yqq mdk3 \
+    && apt-get install -yqq reaver \
+    && apt-get install -yqq rtpflood \
+    && apt-get install -yqq slowhttptest \
+    && apt-get install -yqq t50 \
+    && apt-get install -yqq termineter \
+    && apt-get install -yqq thc-ipv6 \
+    && apt-get install -yqq thc-ssl-dos \
+    && apt-get install -yqq acccheck \
+    && apt-get install -yqq burpsuite \
+    && apt-get install -yqq cewl \
+    && apt-get install -yqq chntpw \
+    && apt-get install -yqq cisco-auditing-tool \
+    && apt-get install -yqq cmospwd \
+    && apt-get install -yqq creddump \
+    && apt-get install -yqq crunch \
+    && apt-get install -yqq findmyhash \
+    && apt-get install -yqq gpp-decrypt \
+    && apt-get install -yqq hash-identifier \
+    && apt-get install -yqq hexorbase \
+    && apt-get install -yqq john \
+    && apt-get install -yqq johnny \
+    && apt-get install -yqq keimpx \
+    && apt-get install -yqq maltego-teeth \
+    && apt-get install -yqq maskprocessor \
+    && apt-get install -yqq multiforcer \
+    && apt-get install -yqq ncrack \
+    && apt-get install -yqq oclgausscrack \
+    && apt-get install -yqq pack \
+    && apt-get install -yqq patator \
+    && apt-get install -yqq polenum \
+    && apt-get install -yqq rainbowcrack \
+    && apt-get install -yqq rcracki-mt \
+    && apt-get install -yqq rsmangler \
+    && apt-get install -yqq statsprocessor \
+    && apt-get install -yqq thc-pptp-bruter \
+    && apt-get install -yqq truecrack \
+    && apt-get install -yqq webscarab \
+    && apt-get install -yqq wordlists \
+    && apt-get install -yqq zaproxy \
+    && apt-get install -yqq apktool \
     && apt-get install -yqq dex2jar \
-    && apt-get install -yqq sakis3g smali \
+    && apt-get install -yqq python-distorm3 \
+    && apt-get install -yqq edb-debugger \
+    && apt-get install -yqq jad \
+    && apt-get install -yqq javasnoop \
+    && apt-get install -yqq jd \
+    && apt-get install -yqq ollydbg \
+    && apt-get install -yqq smali \
+    && apt-get install -yqq valgrind \
+    && apt-get install -yqq yara \
+    && apt-get install -yqq android-sdk \
+    && apt-get install -yqq apktool \
+    && apt-get install -yqq arduino \
+    && apt-get install -yqq dex2jar \
+    && apt-get install -yqq sakis3g \
+    && apt-get install -yqq smali \
     && apt-get -yqq update \
     && apt-get -yqq dist-upgrade \
     && apt-get clean
